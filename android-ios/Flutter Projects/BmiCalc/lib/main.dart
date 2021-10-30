@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'screens/input_page.dart';
+// import 'screens/input_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xff0A0D22),
       ),
       debugShowCheckedModeBanner: false,
-      home: InputPage(),
+      // home: InputPage(),
     );
   }
 }
