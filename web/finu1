@@ -47,3 +47,19 @@
             <li><a class="link-secondary" href="#">Food services</a></li>
             <li><a class="link-secondary" href="#">Shelter services</a></li>
             <li><a class="link-secondary" href="#">Medical facilities</a></li>
+ </ul>
+        </div>
+        
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small aboutlogo">
+            <li><a href="https://github.com/RohanKumar01" class="fa fa-github"></a> Rohan Kumar</li>
+            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/"></a> Rohan Kumar</li>
+            <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube"></a> Rohan Kumar</li>
+           
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
