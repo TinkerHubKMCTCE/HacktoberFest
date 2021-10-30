@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+
+body {
+  
+  background-color: black;
+  background: url(background.svg) fixed;
+  margin: 10px;
+  color:#ecf0f1;
+}
+
+.bouncy {
+ transition: all 0.5s ease;  
+}
+
+center {
+  padding-top:15px;
+  padding-bottom:30px;
+}
+
+.input {
+   background-color: #e74c3c;
+   border-radius: 10px 10px 0px 0px;
+   padding: 10px; 
+}
+
+.numBox {
+  display: inline-block;
+  height: 35px;
+  vertical-align: text-bottom;
+  font-size: 20px;
+  width: 70px;
+  font-family: "open sans";
+  border: 3px solid lightgray;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.numBox:hover {
+ border-color: slategray;
+ transition: all 0.5s ease; 
+}
+
+.numBox:focus {
+ outline: none; 
+}
+
+.centeredText {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#header-image {
+  background-color: #172e3e;
+  padding: 30px;
+  border-radius: 30px; 
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px 10px 0px 0px;
+  font-family: 'Montserrat';
+  background-color: #3498db;
+  color: #ecf0f1;
+  margin: auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 30px;
+  box-shadow: 0 5px 10px #000;
+}
+
+.specialheading {
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.centeredImage {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+ font-size: 2.5vw; 
+}
+
+p {
+  font-size: 1px;
+}
+
+.button {
+  font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    border-bottom: 5px solid #312e2e;
+    background-color: #3498db;
+    color: #efe3e3;
+    font-family: "Open Sans";
+  
+ transition: all 0.3s ease; 
+}
+
+.button:hover {
+ color:  #3498db;
+  background-color: #ecf0f1;
+ transition: all 0.3s ease; 
+}
+
+.button:focus {
+
+  outline: none;
+}
+
+.button:active {
+  padding:15px;
+    border-bottom: 0px solid #312e2e;
+  outline: none;
+}
