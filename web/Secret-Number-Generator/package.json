@@ -1,0 +1,26 @@
+{
+  "name": "secret-number-generator",
+  "version": "1.0.0",
+  "description": "A Mini Closure Exercise",
+  "main": "secret_number.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/Secret-Number-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/Secret-Number-Generator/issues"
+  },
+  "homepage": "https://github.com/devleague/Secret-Number-Generator#readme",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
+}
