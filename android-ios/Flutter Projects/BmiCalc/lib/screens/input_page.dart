@@ -1,8 +1,8 @@
-import 'package:bmi_calc/utils/calculator_brain.dart';
 import 'package:flutter/material.dart';
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import '/utils/calculator_brain.dart';
 import '/utils/constants.dart';
 import '/widgets/icon_content.dart';
 import '/widgets/reusable_card.dart';
