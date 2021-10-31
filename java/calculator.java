@@ -33,7 +33,28 @@ public class Minicalculator {
 	    default:
 	        return d;
 	    }
-	} 
+	     public static double sub(int x,int y) {
+		int s = x + y;
+		double b = (double)s;
+		switch(s) {
+		case 0:
+			return 0;
+        default:
+        	return b;
+		}
+	}
+    public static double mod(int x,int y) {
+		int p = x%y;
+		double d = (double)p;
+		switch(p) {
+		case 0:
+			return 0;
+		default:
+			return d;
+		}
+    }
+    }	    
+	 
    	
 	
 
