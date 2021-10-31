@@ -1,3 +1,5 @@
+// This is a program of Calculator made with java language
+
 public class Minicalculator {
     public static void main(String[]args){
                 double dub =add(5,2);
@@ -73,7 +75,8 @@ public class Minicalculator {
 
 }
    
-        
+ 
+// End of the program
 	 
    	
 	
